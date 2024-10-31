@@ -1,24 +1,28 @@
+"use client";
+
 import { PrestaCard } from "./PrestaCard";
 import Image from "next/image";
 import RecipeImage from "@/assets/ingredients.svg";
-import Spoon from "@/assets/spoon.svg";
+import Spoon from "@/assets/Spoon.svg";
 
 const Prestations = () => {
   return (
-    <section className="h-full mt-6 relative bg-gradient-to-b from-[#112B2A] via-[#1D0808] via-40% to-[#1D0808]">
+    <section className="h-full  relative bg-gradient-to-b from-[#112B2A] via-[#1D0808] via-40% to-[#1D0808]">
       <div className="absolute bottom-[100px] md:bottom-[350px] lg:bottom-[50px] w-[1000px] right-[-450px] lg:right-[-450px] xl:right-[-200px] lg:top-1/2 transform -translate-y-1/2">
-        <Image
-          src={Spoon}
-          alt="Cuillère décorative"
-          className=""
-          width={1400}
-        />
+        <div>
+          <Image
+            src={Spoon}
+            alt="Cuillère décorative"
+            className=""
+            width={1400}
+          />
+        </div>
       </div>
       <div className="container ">
         {/**Titre */}
         <div className="text-center lg:text-left p-4 ">
-          <h2 className=" mb-4 text-4xl underline text-secondary">
-            Nos Prestations
+          <h2 className=" mb-4 uppercase text-4xl underline text-secondary">
+            Prestations
           </h2>
           <p className="lg:max-w-[700px] lg:text-xl">
             Que ce soit pour des événements professionnels ou privés, chaque
@@ -39,13 +43,13 @@ const Prestations = () => {
           <PrestaCard
             title="SOIREE PRIVEE"
             description="Pour votre mariage, nous vous offrons une animation cocktail qui allie authenticité et caractère. Que ce soit pour le vin d'honneur, la réception ou la soirée dansante, nos barmen, experts en mixologie, recréent l’atmosphère des speakeasies avec des cocktails sur mesure, audacieux et chargés d’histoire."
-            imageUrl="https://images.unsplash.com/photo-1485872299829-c673f5194813?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fFByaXZhdGUlMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"
+            imageUrl="https://images.unsplash.com/photo-1485872299829-c673f5194813?w=2340&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fFByaXZhdGUlMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"
           />
           <div className="w-full">
             <PrestaCard
               title="SOIREE D'ENTREPRISE"
               description="Pour votre mariage, nous vous offrons une animation cocktail qui allie authenticité et caractère. Que ce soit pour le vin d'honneur, la réception ou la soirée dansante, nos barmen, experts en mixologie, recréent l’atmosphère des speakeasies avec des cocktails sur mesure, audacieux et chargés d’histoire."
-              imageUrl="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHNlbWluYWlyZXxlbnwwfHwwfHx8MA%3D%3D"
+              imageUrl="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=2064&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHNlbWluYWlyZXxlbnwwfHwwfHx8MA%3D%3D"
             />
           </div>
           <div className="lg:w-[600px] ">

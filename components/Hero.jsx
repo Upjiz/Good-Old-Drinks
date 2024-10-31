@@ -5,7 +5,7 @@ import HeaderImage from "./HeaderImage";
 const Hero = () => {
   return (
     <section className="h-full">
-      <div className="container mx-auto py-4 ">
+      <div className="container mx-auto py-4 lg:py-12">
         <div className="flex flex-col lg:flex-row items-center gap-8  justify-between lg:pb-12 -mt-16">
           {/**Texte */}
           <div className="max-w-2xl">

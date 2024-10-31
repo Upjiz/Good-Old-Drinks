@@ -10,8 +10,6 @@ const EventCard = ({
   date,
 }) => {
   const GetBadgeColor = (type) => {
-    console.log(type);
-
     switch (type.toLowerCase()) {
       case "Mariage":
         return "bg-red-600";

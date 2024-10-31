@@ -121,7 +121,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className="text-gray-300 text-sm mt-10">
+          <p className="text-gray-300 text-sm mt-10 text-center">
             © 2024 Good Old Drinks. Tous droits réservés.
           </p>
         </footer>

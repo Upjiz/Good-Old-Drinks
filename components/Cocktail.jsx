@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Cocktail = () => {
   return (
-    <section className="h-full bg-gradient-to-b from-[#1D0808] to-[#112B2A] py-6">
+    <section className="h-full bg-gradient-to-b from-[#1D0808] to-[#112B2A] py-12">
       <div className="container lg:py-12">
         <div className="text-center ">
           <h1 className="text-secondary text-4xl uppercase mb-4">Cocktails</h1>

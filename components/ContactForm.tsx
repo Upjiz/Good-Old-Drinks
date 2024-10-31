@@ -47,13 +47,13 @@ export default function Component() {
 
   return (
     <section className="bg-[#1D0808] overflow-x-hidden relative">
-      <div className="container p-10 ">
-        <div className=" ">
+      <div className="container p-4 ">
+        <div className="py-2 ">
           <h2 className="uppercase text-3xl lg:text-center text-secondary">
             Contactez nous !{" "}
           </h2>
           <div className="border border-b border-secondary lg:mx-auto w-[95%] lg:w-[45%] mt-2 "></div>
-          <p className="lg:text-center md:p-4 lg:p-6">
+          <p className="lg:text-center text-lg md:p-4 lg:p-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugit
             dicta ut mollitia velit temporibus ex enim assumenda consectetur
             voluptates ratione quod, tempore, vero harum doloribus ad
@@ -65,15 +65,15 @@ export default function Component() {
             onSubmit={handleSubmit}
             className="space-y-6 max-w-5xl  mx-auto p-6 bg-slate-50 rounded-xl shadow-md"
           >
-            <h2 className="text-2xl underline text-black font-bold text-center mb-6">
+            <h2 className=" text-lg lg:text-xl underline text-black font-bold text-center mb-6">
               Choisissez{" "}
-              <span className="uppercase text-[#1D0808]">good old drinks</span>{" "}
+              <span className="uppercase text-secondary">good old drinks</span>{" "}
               pour vos soirées
             </h2>
 
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <Label className="text-black" htmlFor="firstName">
+                <Label className="text-black text-lg" htmlFor="firstName">
                   Prénom
                 </Label>
                 <Input
@@ -85,7 +85,7 @@ export default function Component() {
                 />
               </div>
               <div className="space-y-2">
-                <Label className="text-black" htmlFor="lastName">
+                <Label className="text-black text-lg" htmlFor="lastName">
                   Nom
                 </Label>
                 <Input
@@ -99,7 +99,7 @@ export default function Component() {
             </div>
 
             <div className="space-y-2">
-              <Label className="text-black" htmlFor="email">
+              <Label className="text-black text-lg" htmlFor="email">
                 Email
               </Label>
               <Input
@@ -113,7 +113,7 @@ export default function Component() {
             </div>
 
             <div className="space-y-2">
-              <Label className="text-black" htmlFor="eventType">
+              <Label className="text-black text-lg" htmlFor="eventType">
                 Type d&apos;événement
               </Label>
               <Select
@@ -142,7 +142,7 @@ export default function Component() {
             </div>
 
             <div className="space-y-2">
-              <Label className="text-black" htmlFor="message">
+              <Label className="text-black text-lg" htmlFor="message">
                 Message
               </Label>
               <Textarea
@@ -154,7 +154,7 @@ export default function Component() {
               />
             </div>
 
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-full text-lg">
               Envoyer
             </Button>
           </form>

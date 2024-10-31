@@ -34,7 +34,7 @@ const LastEvent = () => {
               imageUrl={
                 "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbXBhbnklMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"
               }
-              badgeText="Soirée d'entreprise"
+              badgeText="Entreprise"
               title="Séminaire IBM"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium natus doloremque ab distinctio perferendis ullam consequuntur commodi labore voluptatibus, enim autem beatae iure pariatur repellendus sapiente dolorum omnis culpa quo?"
               authorName="Martin - Good Old Drinks"

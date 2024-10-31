@@ -44,7 +44,7 @@ const ChooseUs = () => {
             </div>
           </div>
           <div>
-            <p className="text-center py-10 lg:text-xl">
+            <p className="text-center text-lg py-12 lg:text-xl">
               Lorem ipsum dolor sit amet consectetur. Vitae ullamcorper vitae
               cursus aliquam. Placerat adipiscing ante at est sit sodales risus.
               Consectetur viverra amet dignissim integer ut nunc. Eget risus

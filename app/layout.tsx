@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import ParallaxWrapper from "@/components/ParallaxWrapper";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -23,8 +24,10 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${oswald.className} antialiased`}>
-        <Header />
-        {children}
+        <ParallaxWrapper>
+          <Header />
+          {children}
+        </ParallaxWrapper>
       </body>
     </html>
   );
