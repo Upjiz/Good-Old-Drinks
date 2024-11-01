@@ -11,10 +11,11 @@ const LastEvent = () => {
           </h2>
           <div className="border- border-b border-secondary mt-2 mb-2"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Praesentium natus doloremque ab distinctio perferendis ullam
-            consequuntur commodi labore voluptatibus, enim autem beatae iure
-            pariatur repellendus sapiente dolorum omnis culpa quo?
+            Découvrez nos dernières prestations et laissez-vous inspirer par
+            l&apos;ambiance unique que nous avons créée pour chaque événement.
+            Mariages, soirées privées, célébrations d&apos;entreprise… chaque
+            occasion est pour nous l&apos;opportunité de sublimer vos moments
+            avec style et élégance.
           </p>
         </div>
         <div>

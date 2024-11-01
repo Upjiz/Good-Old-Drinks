@@ -28,27 +28,33 @@ const ChooseUs = () => {
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon3} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Cocktails haut de gamme</h2>
+              <h2 className="uppercase text-2xl">10 ans d&apos;expérience</h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon4} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Cocktails haut de gamme</h2>
+              <h2 className="uppercase text-2xl">Un service personnalisé</h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon5} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Cocktails haut de gamme</h2>
+              <h2 className="uppercase text-2xl">
+                Respect de l’art de la mixologie
+              </h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon6} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Cocktails haut de gamme</h2>
+              <h2 className="uppercase text-2xl">
+                Une ambiance unique et immersive
+              </h2>
             </div>
           </div>
           <div>
             <p className="text-center text-lg py-12 lg:text-xl">
-              Lorem ipsum dolor sit amet consectetur. Vitae ullamcorper vitae
-              cursus aliquam. Placerat adipiscing ante at est sit sodales risus.
-              Consectetur viverra amet dignissim integer ut nunc. Eget risus
-              scelerisque mi ultricies ut suspendisse justo malesuada curabitur.
+              Chez Good Old Drinks, chaque détail est pensé pour vous offrir une
+              expérience unique. Nos cocktails sont conçus avec des ingrédients
+              minutieusement sélectionnés et un savoir-faire qui s’inspire des
+              techniques traditionnelles. Avec une touche d’élégance et
+              d’authenticité, nous apportons à vos événements un service
+              personnalisé qui saura marquer les esprits.
             </p>
           </div>
         </div>

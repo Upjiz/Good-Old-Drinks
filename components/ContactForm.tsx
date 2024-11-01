@@ -54,10 +54,11 @@ export default function Component() {
           </h2>
           <div className="border border-b border-secondary lg:mx-auto w-[95%] lg:w-[45%] mt-2 "></div>
           <p className="lg:text-center text-lg md:p-4 lg:p-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugit
-            dicta ut mollitia velit temporibus ex enim assumenda consectetur
-            voluptates ratione quod, tempore, vero harum doloribus ad
-            repudiandae dolores quae.
+            Vous avez un projet en tête ou souhaitez en savoir plus sur nos
+            services ? N&apos;hésitez pas à nous contacter ! Que ce soit pour un
+            événement privé, un mariage ou une soirée d’entreprise, nous serons
+            ravis de vous accompagner pour faire de votre moment un instant
+            inoubliable.
           </p>
         </div>
         <div className="mt-6">

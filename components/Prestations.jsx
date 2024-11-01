@@ -38,18 +38,20 @@ const Prestations = () => {
           <PrestaCard
             title="MARIAGE"
             description="Pour votre mariage, nous vous offrons une animation cocktail qui allie authenticité et caractère. Que ce soit pour le vin d'honneur, la réception ou la soirée dansante, nos barmen, experts en mixologie, recréent l’atmosphère des speakeasies avec des cocktails sur mesure, audacieux et chargés d’histoire."
-            imageUrl="https://images.unsplash.com/flagged/photo-1620830102229-9db5c00d4afc?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imageUrl="https://i.ibb.co/ZgGdXtR/Presta-Mariage.png"
+            width={300}
           />
           <PrestaCard
             title="SOIREE PRIVEE"
-            description="Pour votre mariage, nous vous offrons une animation cocktail qui allie authenticité et caractère. Que ce soit pour le vin d'honneur, la réception ou la soirée dansante, nos barmen, experts en mixologie, recréent l’atmosphère des speakeasies avec des cocktails sur mesure, audacieux et chargés d’histoire."
-            imageUrl="https://images.unsplash.com/photo-1485872299829-c673f5194813?w=2340&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fFByaXZhdGUlMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"
+            description="Pour vos soirées privées, anniversaires ou autres événements exclusifs, nous créons une ambiance intimiste et raffinée digne des meilleurs speakeasies. Nos barmen passionnés vous proposent des cocktails personnalisés, soigneusement élaborés pour surprendre vos invités et ajouter une touche de mystère et d’élégance à votre soirée."
+            imageUrl="https://i.ibb.co/L1DTDv5/Presta-Prive.png"
           />
           <div className="w-full">
             <PrestaCard
+              className=""
               title="SOIREE D'ENTREPRISE"
-              description="Pour votre mariage, nous vous offrons une animation cocktail qui allie authenticité et caractère. Que ce soit pour le vin d'honneur, la réception ou la soirée dansante, nos barmen, experts en mixologie, recréent l’atmosphère des speakeasies avec des cocktails sur mesure, audacieux et chargés d’histoire."
-              imageUrl="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=2064&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHNlbWluYWlyZXxlbnwwfHwwfHx8MA%3D%3D"
+              description="Pour vos événements professionnels, nous apportons une animation cocktail unique, à la fois sophistiquée et conviviale. Nos barmen adaptent leurs créations pour répondre à vos besoins, en mettant en avant des cocktails inspirés des années 1920. Offrez à vos collaborateurs et invités un moment de détente et de partage dans une atmosphère élégante, propice aux échanges et à la convivialité."
+              imageUrl="https://i.ibb.co/Sth8DQg/Presta-Entreprise.png"
             />
           </div>
           <div className="lg:w-[600px] ">
