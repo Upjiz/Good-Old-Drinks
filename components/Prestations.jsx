@@ -13,7 +13,7 @@ const Prestations = () => {
           <Image
             src={Spoon}
             alt="Cuillère décorative"
-            className=""
+            className="hidden lg:block"
             width={1400}
           />
         </div>
@@ -34,7 +34,7 @@ const Prestations = () => {
         </div>
       </div>
       <div className="container">
-        <div className="flex flex-col lg:flex-row lg:grid lg:grid-cols-2 mr-16  lg:mr-12 ">
+        <div className="flex flex-col lg:flex-row lg:grid lg:grid-cols-2 mr-16  lg:mr-12 w-full ">
           <PrestaCard
             title="MARIAGE"
             description="Pour votre mariage, nous vous offrons une animation cocktail qui allie authenticité et caractère. Que ce soit pour le vin d'honneur, la réception ou la soirée dansante, nos barmen, experts en mixologie, recréent l’atmosphère des speakeasies avec des cocktails sur mesure, audacieux et chargés d’histoire."

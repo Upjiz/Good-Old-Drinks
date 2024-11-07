@@ -56,7 +56,7 @@ export const restaCard: React.FC<PrestaCardProps> = ({
           <h1 className="text-white underline text-3xl lg:text-5xl md:text-4xl md:mt-12  font-crescendo text-center mt-4 lg:mt-12">
             {title}
           </h1>
-          <p className="text-white text-sm  md:text-lg text-center mt-6">
+          <p className="text-white text-sm md:text-xl lg:text-2xl text-center mt-6">
             {description}
           </p>
         </div>
