@@ -63,7 +63,7 @@ export default function Services() {
         <h2 className="text-4xl font-serif uppercase text-center mb-4 ">
           Prestations
         </h2>
-        <p className="text-center font-semibold  md:text-xl xl:text-2xl text-gray-300  mx-auto mb-16">
+        <p className="text-center font-semibold  md:text-xl xl:text-xl text-gray-300  mx-auto mb-16">
           Des rassemblements intimistes aux grandes célébrations, nous apportons
           l&apos;art de la mixologie directement sur votre lieu
           d&apos;événement. Nos barmans experts réalisent chaque cocktail avec
