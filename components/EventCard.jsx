@@ -24,7 +24,7 @@ const EventCard = ({
 
   return (
     <a href="javascript:void(0)">
-      <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-xl max-w-96">
+      <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-xl max-w-96 overflow-hidden">
         <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
           <Image
             src={imageUrl}

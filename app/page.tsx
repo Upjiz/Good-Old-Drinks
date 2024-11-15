@@ -1,25 +1,30 @@
 import Hero from "../components/Hero";
-import Prestations from "../components/Prestations";
-import Cocktail from "../components/Cocktail";
-import Quote from "../components/Quote";
+
+import Quote2 from "../components/Quote2";
 import PhotoGallery from "../components/PhotoGallery";
 import ChooseUs from "../components/ChooseUs";
-import ContactForm from "../components/ContactForm";
-import LastEvent from "../components/LastEvent";
-import Footer from "../components/Footer";
+
+import Footer2 from "../components/Footer2";
+import Contact from "../components/Contact";
+import Service from "../components/Services";
+import Carousel from "@/components/Carousel/Carousel";
+import Event from "../components/Event";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Prestations />
-      <Cocktail />
-      <Quote />
+
+      <Service />
+      <Carousel />
+
+      <Quote2 />
       <PhotoGallery />
       <ChooseUs />
-      <ContactForm />
-      <LastEvent />
-      <Footer />
+      <Contact />
+      <Event />
+
+      <Footer2 />
     </>
   );
 }

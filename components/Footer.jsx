@@ -3,9 +3,9 @@ import Logo from "@/assets/GOD.png";
 
 const Footer = () => {
   return (
-    <section>
+    <section className=" bg-[#1D0808]">
       <div className="">
-        <footer className="bg-[#1D0808] p-10 font-[sans-serif] tracking-wide">
+        <footer className="bg-[#1D0808] p-10 font-[sans-serif] tracking-wide container">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="lg:flex lg:items-center">
               <a href="javascript:void(0)">

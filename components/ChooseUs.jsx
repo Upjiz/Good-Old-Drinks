@@ -20,35 +20,43 @@ const ChooseUs = () => {
           <div className=" grid grid-cols-2 lg:grid lg:grid-cols-3 lg:gap-8 text-center">
             <div className="items-center justify-center flex flex-col mt-8">
               <Image src={ChooseIcon1} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Des ingrédients de qualité</h2>
+              <h2 className="uppercase text-lg md:text-2xl">
+                Des ingrédients de qualité
+              </h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon2} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Cocktails haut de gamme</h2>
+              <h2 className="uppercase text-lg md:text-2xl">
+                Cocktails haut de gamme
+              </h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon3} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">10 ans d&apos;expérience</h2>
+              <h2 className="uppercase text-lg md:text-2xl">
+                10 ans d&apos;expérience
+              </h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon4} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">Un service personnalisé</h2>
+              <h2 className="uppercase text-lg md:text-2xl">
+                Un service personnalisé
+              </h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon5} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">
+              <h2 className="uppercase text-lg md:text-2xl">
                 Respect de l’art de la mixologie
               </h2>
             </div>
             <div className="items-center justify-center flex flex-col  mt-8">
               <Image src={ChooseIcon6} width={300} alt="Choose icon 1" />
-              <h2 className="uppercase text-2xl">
+              <h2 className="uppercase text-lg md:text-2xl">
                 Une ambiance unique et immersive
               </h2>
             </div>
           </div>
           <div>
-            <p className="text-center text-lg py-12 lg:text-xl">
+            <p className="text-center text-lg py-12 lg:text-xl xl:text-2xl">
               Chez Good Old Drinks, chaque détail est pensé pour vous offrir une
               expérience unique. Nos cocktails sont conçus avec des ingrédients
               minutieusement sélectionnés et un savoir-faire qui s’inspire des

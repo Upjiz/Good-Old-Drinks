@@ -6,7 +6,6 @@ import { IoIosMail } from "react-icons/io";
 import Image from "next/image";
 import { useState } from "react";
 import Logo from "@/assets/GOD.png";
-import { Button } from "./ui/button";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +14,7 @@ const MobileNav = () => {
   };
 
   return (
-    <div className="flex items-center gap-6 lg:hidden">
-      <Button className="bg-[#8B5E34]  rounded" size="lg">
-        Contact
-      </Button>
+    <div className="flex items-center gap-6 lg:hidden ">
       <div onClick={handleNav} className="cursor-pointer lg:hidden">
         <IoMenu size={32} className="text-white" />
       </div>

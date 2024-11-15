@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const PhotoGallery = () => {
   return (
-    <section className="h-full  py-6 mt-6 bg-gradient-to-t from-[#1D0808] via-[#112B2A] to-[#112B2A]  ">
+    <section className="h-full relative  py-6 mt-6 bg-gradient-to-t from-[#1D0808] via-[#112B2A] to-[#112B2A]  ">
       <div className="columns-1 md:columns-2 xl:columns-3 gap-7 container">
         <div className="break-inside-avoid mb-8">
           <Image

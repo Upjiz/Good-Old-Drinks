@@ -16,3 +16,65 @@
     @apply font-primary bg-primary text-white leading-loose;
   }
 }
+
+.art-deco-border {
+  @apply relative;
+}
+
+.art-deco-border::before,
+.art-deco-border::after {
+  content: "";
+  @apply absolute left-1/2 w-32 h-px bg-[#c7b79c] transform -translate-x-1/2;
+}
+
+.art-deco-border::before {
+  @apply -top-4;
+  background-image: linear-gradient(90deg, transparent, #c7b79c, transparent),
+    repeating-linear-gradient(
+      90deg,
+      #c7b79c 0,
+      #c7b79c 1px,
+      transparent 1px,
+      transparent 4px
+    );
+}
+
+.art-deco-border::after {
+  @apply -bottom-4;
+  background-image: linear-gradient(90deg, transparent, #c7b79c, transparent),
+    repeating-linear-gradient(
+      90deg,
+      #c7b79c 0,
+      #c7b79c 1px,
+      transparent 1px,
+      transparent 4px
+    );
+}
+
+.art-deco-pattern {
+  background-image: radial-gradient(
+      circle at 100% 150%,
+      #c7b79c 24%,
+      transparent 25%
+    ),
+    radial-gradient(circle at 0 150%, #c7b79c 24%, transparent 25%),
+    radial-gradient(circle at 50% 100%, #c7b79c 10%, transparent 11%),
+    radial-gradient(circle at 100% 50%, #c7b79c 5%, transparent 6%),
+    radial-gradient(circle at 0 50%, #c7b79c 5%, transparent 6%),
+    radial-gradient(circle at 50% 0, #c7b79c 10%, transparent 11%);
+  background-size: 10px 10px;
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+
+.art-deco-border-2 {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #e2c488 0,
+    #e2c488 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+  border: 2px solid #e2c488;
+}

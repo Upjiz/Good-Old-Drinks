@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { FaCocktail } from "react-icons/fa";
+
 import Image from "next/image";
 
 export default function CocktailCard({ title, ingredients, image }) {
@@ -23,7 +23,6 @@ export default function CocktailCard({ title, ingredients, image }) {
         <ul className="space-y-2 flex flex-col items-center">
           {ingredientsList.map((ingredient, index) => (
             <li key={index} className="flex items-center">
-              <FaCocktail className="mr-2 text-secondary" />
               <span>{ingredient}</span>
             </li>
           ))}

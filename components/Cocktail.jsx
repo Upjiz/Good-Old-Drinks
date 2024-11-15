@@ -1,5 +1,6 @@
 import CocktailCarousel from "../components/Carousel";
 import { Button } from "@/components/ui/button";
+import MockctailCarousel from "../components/MocktailCarousel";
 
 const Cocktail = () => {
   return (
@@ -18,7 +19,24 @@ const Cocktail = () => {
         <div className="lg:flex gap-6 py-6 lg:py-12">
           <CocktailCarousel />
         </div>
+        <div>
+          <h2 className="text-secondary uppercase text-4xl text-center ">
+            Mocktails
+          </h2>
+          <p className="mb-2 lg:text-xl py-4 text-center">
+            Pour une expérience sans alcool qui ne sacrifie ni le goût ni
+            l&apos;élégance, nos mocktails sont élaborés avec la même attention
+            aux détails et aux saveurs raffinées. Que ce soit pour des convives
+            qui préfèrent des options non alcoolisées ou pour créer une ambiance
+            plus douce, nos créations sans alcool sauront apporter fraîcheur et
+            sophistication à votre événement.
+          </p>
+          <div className="mb-6 lg:flex gap-6 py-6 lg:py-12">
+            <MockctailCarousel />
+          </div>
+        </div>
         <div className="border border-secondary"></div>
+
         <div className="text-center py-2">
           <p className="py-6 text-xl">
             Découvrez notre sélection de cocktails soigneusement élaborés,

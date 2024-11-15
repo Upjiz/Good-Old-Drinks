@@ -2,7 +2,7 @@
 
 import { PrestaCard } from "./PrestaCard";
 import Image from "next/image";
-import RecipeImage from "@/assets/ingredients.svg";
+
 import Spoon from "@/assets/Spoon.svg";
 
 const Prestations = () => {
@@ -20,8 +20,8 @@ const Prestations = () => {
       </div>
       <div className="container ">
         {/**Titre */}
-        <div className="text-center lg:text-left p-4 ">
-          <h2 className=" mb-4 uppercase text-4xl underline text-secondary">
+        <div className="text-left lg:text-left p-4 ">
+          <h2 className=" mb-4  uppercase text-4xl underline text-secondary ">
             Prestations
           </h2>
           <p className="lg:max-w-[700px] lg:text-xl">
@@ -33,7 +33,7 @@ const Prestations = () => {
           <div className="border-b border-[#C7B79C] w-[100%] lg:w[60%]  mt-6"></div>
         </div>
       </div>
-      <div className="container">
+      <div className="md:container">
         <div className="flex flex-col lg:flex-row lg:grid lg:grid-cols-2 mr-16  lg:mr-12 w-full ">
           <PrestaCard
             title="MARIAGE"
@@ -54,14 +54,12 @@ const Prestations = () => {
               imageUrl="https://i.ibb.co/Sth8DQg/Presta-Entreprise.png"
             />
           </div>
-          <div className="lg:w-[600px] ">
-            <Image
-              src={RecipeImage}
-              alt="Menthe"
-              width={300}
-              className="lg:w-[600px]"
-            />
-          </div>
+          <PrestaCard
+            className=""
+            title="SOIREE D'ENTREPRISE"
+            description="Pour vos événements professionnels, nous apportons une animation cocktail unique, à la fois sophistiquée et conviviale. Nos barmen adaptent leurs créations pour répondre à vos besoins, en mettant en avant des cocktails inspirés des années 1920. Offrez à vos collaborateurs et invités un moment de détente et de partage dans une atmosphère élégante, propice aux échanges et à la convivialité."
+            imageUrl="https://ibb.co/Z2SxkRn"
+          />
         </div>
       </div>
     </section>

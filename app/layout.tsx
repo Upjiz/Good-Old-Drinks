@@ -22,8 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
-      <body className={`${oswald.className} antialiased`}>
+    <html className="scroll-smooth" lang="fr">
+      <body className={`${oswald.className}  antialiased `}>
         <ParallaxWrapper>
           <Header />
           {children}

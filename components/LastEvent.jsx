@@ -19,7 +19,7 @@ const LastEvent = () => {
           </p>
         </div>
         <div>
-          <div className="lg:flex lg:gap-4 justify-center items-center">
+          <div className="flex flex-col lg:flex-row lg:gap-4 justify-center items-center">
             <EventCard
               imageUrl={
                 "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFyaWFnZXxlbnwwfHwwfHx8MA%3D%3D"
