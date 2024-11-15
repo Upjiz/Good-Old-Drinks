@@ -65,10 +65,10 @@ export default function Services() {
         </h2>
         <p className="text-center font-semibold  md:text-xl xl:text-2xl text-gray-300  mx-auto mb-16">
           Des rassemblements intimistes aux grandes célébrations, nous apportons
-          l'art de la mixologie directement sur votre lieu d'événement. Nos
-          barmans experts réalisent chaque cocktail avec précision et
-          créativité, pour offrir à vous et vos invités une expérience
-          inoubliable.
+          l&apos;art de la mixologie directement sur votre lieu
+          d&apos;événement. Nos barmans experts réalisent chaque cocktail avec
+          précision et créativité, pour offrir à vous et vos invités une
+          expérience inoubliable.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">

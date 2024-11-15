@@ -94,7 +94,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="text-gray-400">Mariages</li>
               <li className="text-gray-400">Soirées privées</li>
-              <li className="text-gray-400">Soirée d'entreprise</li>
+              <li className="text-gray-400">Soirée d&apos;entreprise</li>
               <li className="text-gray-400">Evènements sportifs</li>
             </ul>
           </div>

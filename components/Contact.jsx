@@ -1,7 +1,7 @@
 import React from "react";
 import { Mail, Phone, Calendar } from "lucide-react";
 import Deco5 from "@/assets/Deco/Deco5.svg";
-import Deco6 from "@/assets/Deco/Deco6.svg";
+
 import Image from "next/image";
 
 export default function Contact() {
