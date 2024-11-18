@@ -15,22 +15,22 @@ function Carousel() {
       <Image
         src={Deco1}
         alt="Deco1"
-        className="hidden lg:block absolute object-cover w-[600px]  xl:top-[30%] xl:left-[10%]  transform rotate-12    lg:transform -translate-y-1/2"
+        className="hidden lg:block absolute object-cover w-[600px]  xl:top-[30%] xl:left-[0%]  transform rotate-12    lg:transform -translate-y-1/2"
       />
       <Image
         src={Deco2}
         alt="Deco2"
-        className="hidden xl:block absolute object-cover w-[600px]  xl:bottom-0 xl:right-[10%]  transform -rotate-12 lg:transform -translate-y-1/2"
+        className="hidden xl:block absolute object-cover w-[600px]  xl:bottom-0 xl:right-[0%]  transform -rotate-12 lg:transform -translate-y-1/2"
       />
       <Image
         src={Deco3}
         alt="Deco3"
-        className="hidden xl:block absolute object-cover w-[600px]  xl:top-[30%] xl:right-[10%]  transform rotate-[-30deg]    lg:transform -translate-y-1/2"
+        className="hidden xl:block absolute object-cover w-[600px]  xl:top-[30%] xl:right-[0%]  transform rotate-[-30deg]    lg:transform -translate-y-1/2"
       />
       <Image
         src={Deco4}
         alt="Deco4"
-        className="hidden xl:block absolute object-cover w-[600px]  xl:bottom-[-5%] xl:left-[10%]  transform rotate-[-10deg]    lg:transform -translate-y-1/2"
+        className="hidden xl:block absolute object-cover w-[600px]  xl:bottom-[-5%] xl:left-[0%]  transform rotate-[-10deg]    lg:transform -translate-y-1/2"
       />
       <div className=" bg-[#1C0A08] py-12">
         <div className="container mx-auto px-4">

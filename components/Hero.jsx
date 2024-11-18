@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container mx-auto p-9 lg:py-12">
         <div className="flex flex-col lg:flex-row items-center gap-8  justify-between lg:pb-12 -mt-16">
           {/**Texte */}
-          <div className="max-w-2xl">
+          <div className="max-w-2xl ">
             <div className="py-6 lg:py-6 mt-4">
               <h1 className="uppercase text-5xl lg:text-8xl lg:text-left text-center text-secondary font-bold">
                 Barman prive pour tous vos evenements
