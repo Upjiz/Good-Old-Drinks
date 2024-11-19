@@ -8,18 +8,19 @@ export default function Contact() {
   return (
     <section id="contact" className="  py-20 bg-[#1D0808] relative">
       <div className="container mx-auto px-4 ">
+        <div className="">
+          <Image
+            src={Deco5}
+            alt="Deco5"
+            className="absolute hidden pointer-events-none lg:left-[5%] lg:top-[10%] lg:w-[600px] xl:left-[20%] top-[-20px] w-[300px] md:w-[600px] xl:w-[900px] transform -translate-x-1/2 z-[-1] md:z-10 "
+          />
+        </div>
         <div className="max-w-4xl mx-auto bg-[#2a1414] rounded-lg p-8 md:p-12">
           <h2 className="text-4xl font-serif text-[#c7b79c] text-center mb-8">
             Contactez nous !
           </h2>
-          <div className="">
-            <Image
-              src={Deco5}
-              alt="Deco5"
-              className="absolute lg:left-[5%] lg:top-[10%] lg:w-[600px] xl:left-[20%] top-[-20px] w-[300px] md:w-[600px] xl:w-[900px] transform -translate-x-1/2 "
-            />
-          </div>
-          <form className="space-y-6">
+
+          <form className="space-y-6 z-20">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-[#c7b79c] mb-2">Nom</label>
