@@ -1,13 +1,14 @@
-import React from 'react';
-import { GlassWater } from 'lucide-react';
+import React from "react";
+import { GlassWater } from "lucide-react";
 
 export default function WeddingHero() {
   return (
     <div className="relative h-[60vh]">
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
         }}
       >
         <div className="absolute inset-0 bg-[#112B2A]/80"></div>
@@ -47,7 +48,7 @@ export default function WeddingHero() {
               <div className="absolute top-1/2 -translate-y-1/2 -right-2 w-4 h-4 rotate-45 bg-[#c7b79c]/20"></div>
 
               <h1 className="text-4xl md:text-5xl font-serif">
-                L'Art du Cocktail
+                L&apos;Art du Cocktail
                 <span className="block mt-2">Pour Votre Mariage</span>
               </h1>
             </div>
@@ -61,9 +62,10 @@ export default function WeddingHero() {
               <div className="w-24 h-[1px] bg-gradient-to-l from-transparent to-[#c7b79c]"></div>
             </div>
           </div>
-          
+
           <p className="mt-8 text-lg md:text-xl text-[#c7b79c]/90 max-w-2xl mx-auto">
-            Créez des moments inoubliables avec nos services de bar mobile et nos cocktails signatures personnalisés
+            Créez des moments inoubliables avec nos services de bar mobile et
+            nos cocktails signatures personnalisés
           </p>
         </div>
       </div>

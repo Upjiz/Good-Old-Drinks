@@ -1,19 +1,24 @@
-import React from 'react';
-import { Quote } from 'lucide-react';
+import React from "react";
+import { Quote } from "lucide-react";
+import Image from "next/image";
 
 const testimonials = [
   {
-    quote: "Une expérience inoubliable ! Les cocktails étaient absolument divins et le service impeccable. Nos invités en parlent encore !",
+    quote:
+      "Une expérience inoubliable ! Les cocktails étaient absolument divins et le service impeccable. Nos invités en parlent encore !",
     author: "Marie & Thomas",
     event: "Mariage au Château de Chambord",
-    image: "https://images.unsplash.com/photo-1549675584-91f19337af3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image:
+      "https://images.unsplash.com/photo-1549675584-91f19337af3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
   },
   {
-    quote: "L'équipe a su créer des cocktails qui reflétaient parfaitement notre histoire. Le bar était magnifique et s'intégrait parfaitement à notre décoration.",
+    quote:
+      "L'équipe a su créer des cocktails qui reflétaient parfaitement notre histoire. Le bar était magnifique et s'intégrait parfaitement à notre décoration.",
     author: "Sophie & Pierre",
     event: "Mariage à l'Orangerie de Versailles",
-    image: "https://images.unsplash.com/photo-1507915977619-6ccfe8003b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-  }
+    image:
+      "https://images.unsplash.com/photo-1507915977619-6ccfe8003b12?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  },
 ];
 
 export default function Testimonials() {
@@ -21,9 +26,12 @@ export default function Testimonials() {
     <section className="py-20 px-4 bg-[#112B2A] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-repeat" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c7b79c' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
-        }}></div>
+        <div
+          className="absolute inset-0 bg-repeat"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c7b79c' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        ></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative">
@@ -59,7 +67,9 @@ export default function Testimonials() {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-1/3">
                     <div className="aspect-[3/4] overflow-hidden">
-                      <img
+                      <Image
+                        width={400}
+                        height={300}
                         src={testimonial.image}
                         alt={testimonial.author}
                         className="w-full h-full object-cover"
@@ -73,7 +83,9 @@ export default function Testimonials() {
                     </p>
                     <div className="text-[#c7b79c]">
                       <p className="font-serif text-lg">{testimonial.author}</p>
-                      <p className="text-sm text-[#c7b79c]/70">{testimonial.event}</p>
+                      <p className="text-sm text-[#c7b79c]/70">
+                        {testimonial.event}
+                      </p>
                     </div>
                   </div>
                 </div>

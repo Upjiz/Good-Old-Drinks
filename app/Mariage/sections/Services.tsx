@@ -1,5 +1,6 @@
 import React from "react";
 import { Wine, Users, Sparkles, Clock } from "lucide-react";
+import Image from "next/image";
 
 const services = [
   {
@@ -62,7 +63,9 @@ export default function Services() {
             <div className="sticky top-8">
               <div className="relative">
                 <div className="absolute -inset-4 border border-[#c7b79c]/30"></div>
-                <img
+                <Image
+                  width={400}
+                  height={300}
                   src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                   alt="Service de bar mobile"
                   className="w-full h-[600px] object-cover"
