@@ -78,3 +78,47 @@
   background-size: 10px 10px;
   border: 2px solid #e2c488;
 }
+
+.art-deco-border-3 {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #112b2a 0,
+    #112b2a 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+  border: 2px solid #112b2a;
+}
+
+.animate-deco {
+  animation: float 3s ease-in-out infinite;
+  transform: translateY(-30%);
+  transform: rotate(45deg);
+}
+.animate-deco2 {
+  animation: float 3s ease-in infinite;
+  transform: translateY(-60%);
+  transform: rotate(45deg);
+}
+.animate-deco3 {
+  animation: float 4s ease-out infinite;
+  transform: translateY(-30%);
+  transform: rotate(45deg);
+}
+
+.animate-deco4 {
+  animation: float 1s ease-in-out infinite;
+  transform: translateY(-30%);
+  transform: rotate(45deg);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

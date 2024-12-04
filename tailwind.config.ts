@@ -27,6 +27,15 @@ const config: Config = {
         primary: "#112B2A",
         secondary: "#C7B79C",
       },
+      animation: {
+        "infinite-scroll": "scroll 20s linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

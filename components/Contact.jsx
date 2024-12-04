@@ -51,6 +51,14 @@ export default function Contact() {
                 <option>Autre..</option>
               </select>
             </div>
+            <div className="block text-[#c7b79c] mb-2">
+              <label>Lieu de votre événement</label>
+              <input
+                type="text"
+                className="w-full px-4 py-3 rounded-lg bg-[#1D0808] border border-[#c7b79c] text-white focus:outline-none focus:ring-2 focus:ring-[#c7b79c] h-16"
+                placeholder="Ou ce passe votre événement ?"
+              ></input>
+            </div>
 
             <div>
               <label className="block text-[#c7b79c] mb-2">Message</label>

@@ -40,3 +40,22 @@ export const cocktails: Cocktail[] = [
     year: "Est. 1915",
   },
 ];
+
+export interface ClasicCocktail {
+  id: number;
+  name: string;
+  image: string;
+  description: string;
+  year: string;
+}
+
+export const classicCocktails: ClasicCocktail[] = [
+  {
+    id: 1,
+    name: "Mojito",
+    image:
+      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
+    year: "Est. 1921",
+    description: "Rhum, Menthe, Citron vert, Sucre, Eau gazeuse",
+  },
+];

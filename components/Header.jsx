@@ -13,20 +13,20 @@ const Header = () => {
         </Link>
 
         {/** Menu ordinateur */}
-        <div className=" hidden lg:flex w-full  justify-center items-center gap-20">
+        <div className=" hidden lg:flex w-full  justify-center items-center gap-20 whitespace-nowrap">
           {/**Left Links */}
-          <div className=" font-semibold px-20  py-4 text-2xl flex gap-20 border-t border-b border-[#C7B79C]">
-            <Link href="/">Prestations</Link>
-            <Link href="/">Cocktails</Link>
+          <div className=" font-semibold px-10 mr-10  py-4 text-2xl flex gap-20 border-t border-b border-[#C7B79C]">
+            <Link href="#service">Nos services</Link>
+            <Link href="#cocktails">Nos cocktails</Link>
           </div>
           {/**Logo */}
-          <div>
-            <Image src={Logo} alt="Logo" width={200} />
+          <div className="mx-auto">
+            <Image src={Logo} alt="Logo" width={300} />
           </div>
           {/**Right Links */}
-          <div className=" font-semibold text-2xl px-20 py-4 flex gap-20 border-t border-b border-[#C7B79C]">
-            <Link href="/">Photo</Link>
-            <Link href="/">Evenements</Link>
+          <div className=" font-semibold text-2xl px-10 py-4 flex gap-20 border-t border-b border-[#C7B79C]">
+            <Link href="#realisation">Nos réalisations</Link>
+            <Link href="#contact">Infos & contact</Link>
           </div>
         </div>
         <MobileNav />

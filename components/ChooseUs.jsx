@@ -5,19 +5,20 @@ import ChooseIcon3 from "../assets/icons/ChooseIcon3.svg";
 import ChooseIcon4 from "../assets/icons/ChooseIcon4.svg";
 import ChooseIcon5 from "../assets/icons/ChooseIcon5.svg";
 import ChooseIcon6 from "../assets/icons/ChooseIcon6.svg";
+import SectionTitle from "./ui/SectionTitle";
 
 const ChooseUs = () => {
   return (
     <section className="h-full bg-[#1D0808] py-8">
-      <div className="container">
+      <div className="container lg:p-12 ">
         <div>
           <div>
-            <h1 className="text-secondary text-3xl uppercase font-bold">
-              Pourquoi nous choisir ?
-            </h1>
-            <div className="border border-b border-secondary w-[95%] lg:w-[45%] mt-2"></div>
+            <SectionTitle
+              title="Pourquoi nous choisir ?"
+              subtitle="L'excellence et le souci du détail sont au cœur de chaque prestation. Grâce à une sélection rigoureuse d'ingrédients frais et de qualité, chaque cocktail devient une véritable expérience sensorielle. L'expertise acquise au fil de 10 années d'expérience garantit une maîtrise parfaite, qu'il s'agisse de mariages, d'événements privés ou professionnels. L'objectif est d'offrir un service haut de gamme, adapté à chaque occasion, pour créer des moments uniques et mémorables."
+            />
           </div>
-          <div className=" grid grid-cols-2 lg:grid lg:grid-cols-3 lg:gap-8 text-center">
+          <div className=" grid grid-cols-1 md:grid md:grid-cols-3 lg:gap-8 text-center">
             <div className="items-center justify-center flex flex-col mt-8">
               <Image src={ChooseIcon1} width={300} alt="Choose icon 1" />
               <h2 className="uppercase text-lg md:text-2xl">

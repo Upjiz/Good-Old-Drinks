@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 
 import Quote2 from "../components/Quote2";
-import PhotoGallery from "../components/PhotoGallery";
+
 import ChooseUs from "../components/ChooseUs";
 
 import Footer2 from "../components/Footer2";
@@ -9,6 +9,8 @@ import Contact from "../components/Contact";
 import Service from "../components/Services";
 import Carousel from "@/components/Carousel/Carousel";
 import Event from "../components/Event";
+import PartnersCarousel from "@/components/PartnersCarousel";
+import MansoryGalery from "@/components/MansoryGalery";
 
 export default function Home() {
   return (
@@ -19,7 +21,8 @@ export default function Home() {
       <Carousel />
 
       <Quote2 />
-      <PhotoGallery />
+      <PartnersCarousel />
+      <MansoryGalery />
       <ChooseUs />
       <Contact />
       <Event />

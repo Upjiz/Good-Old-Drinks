@@ -6,7 +6,6 @@ import {
   Twitter,
   Mail,
   Phone,
-  MapPin,
 } from "lucide-react";
 
 export default function Footer() {
@@ -110,14 +109,6 @@ export default function Footer() {
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail size={18} className="text-[#c7b79c]" />
                 <span>goodolddrinks@gmail.com</span>
-              </li>
-              <li className="flex items-center gap-3 text-gray-400">
-                <MapPin size={18} className="text-[#c7b79c]" />
-                <span>
-                  123 Cocktail Avenue
-                  <br />
-                  Mixology City, MC 12345
-                </span>
               </li>
             </ul>
           </div>
