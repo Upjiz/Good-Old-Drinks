@@ -1,6 +1,6 @@
 import React from "react";
 
-import Footer from "../../components/Footer";
+import Footer2 from "../../components/Footer2";
 import WeddingHero from "./sections/Hero";
 import WeddingOverview from "./sections/Overview";
 import WeddingServices from "./sections/Services";
@@ -21,7 +21,7 @@ export default function WeddingService() {
         <WeddingTestimonials />
         <Contact />
       </main>
-      <Footer />
+      <Footer2 />
     </div>
   );
 }

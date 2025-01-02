@@ -30,13 +30,13 @@ const Hero = () => {
                   href="https://www.instagram.com/good.old.drinks?igsh=MzUzM3RxenEyd2kx"
                   className="w-10 h-10 text-[#c7b79c] rounded-full border border-[#c7b79c] flex items-center justify-center hover:bg-[#c7b79c] hover:text-[#1D0808] transition-colors"
                 >
-                  <Instagram size={18} />
+                  <Instagram size={24} />
                 </a>
                 <a
                   href="https://www.facebook.com/good.old.drinks"
                   className="w-10 h-10 text-[#c7b79c]  rounded-full border border-[#c7b79c] flex items-center justify-center hover:bg-[#c7b79c] hover:text-[#1D0808] transition-colors"
                 >
-                  <Facebook size={18} />
+                  <Facebook size={24} />
                 </a>
               </div>
             </div>

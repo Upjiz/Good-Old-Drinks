@@ -9,34 +9,44 @@ export interface Mocktail {
 export const mocktail: Mocktail[] = [
   {
     id: 1,
-    name: "The Bee's Knees",
+    name: "Chuchotement d'été",
     image:
       "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    description: "A prohibition-era gin cocktail sweetened with honey syrup",
+    description: "Lime, lemon ou yuzu, sirop de lavande, eau gazeuse",
     year: "Est. 1921",
   },
   {
     id: 2,
-    name: "Sidecar",
+    name: "Kumaru",
     image:
       "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80",
-    description: "Cognac, orange liqueur, and fresh lemon juice",
+    description: "Eau de coco, sirop tonka, lime, jus de mangue",
     year: "Est. 1922",
   },
   {
     id: 3,
-    name: "Mary Pickford",
+    name: "Ruby",
     image:
       "https://images.unsplash.com/photo-1560512823-829485b8bf24?auto=format&fit=crop&w=800&q=80",
-    description: "White rum, fresh pineapple juice, grenadine, and maraschino",
+    description:
+      "Infusion hibiscus, purée de framboise, sirop de thym, lime, blanc d'oeuf",
     year: "Est. 1920",
   },
   {
     id: 4,
-    name: "French 75",
+    name: "Emrald",
     image:
       "https://images.unsplash.com/photo-1556679344-cc7e0c25c8c3?auto=format&fit=crop&w=800&q=80",
-    description: "Gin, champagne, lemon juice, and sugar",
+    description: "Eau de concombre, sirop de sureau, lime, Eau gazeuse",
+    year: "Est. 1915",
+  },
+  {
+    id: 5,
+    name: "Ginger Glow",
+    image:
+      "https://images.unsplash.com/photo-1556679344-cc7e0c25c8c3?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Infusion menthe / poivre, lime, sirop citronelle, ginger beer",
     year: "Est. 1915",
   },
 ];

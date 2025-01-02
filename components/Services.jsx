@@ -3,7 +3,6 @@ import { PartyPopper, Building2, Users, GlassWater } from "lucide-react";
 import Image from "next/image";
 import Spoon from "@/assets/Spoon.svg";
 import SectionTitle from "./ui/SectionTitle";
-import Link from "next/link";
 
 const services = [
   {
@@ -13,7 +12,7 @@ const services = [
       "Offrez à vos invités une expérience unique avec un bar à cocktails raffiné, parfaitement adapté à l'élégance et à la magie de votre journée de mariage.",
     image:
       "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80",
-    path: "/Mariage",
+    path: "/",
   },
   {
     icon: Building2,
@@ -22,7 +21,7 @@ const services = [
       "Ajoutez une touche d'exception à vos soirées privées grâce à des cocktails créatifs et un service professionnel qui enchante vos invités.",
     image:
       "https://images.unsplash.com/photo-1575444758702-4a6b9222336e?auto=format&fit=crop&q=80",
-    path: "/Mariage",
+    path: "/",
   },
   {
     icon: Users,
@@ -31,7 +30,7 @@ const services = [
       "Impressionnez vos collaborateurs et clients avec un service de bar mobile haut de gamme, idéal pour renforcer vos relations professionnelles lors de vos événements.",
     image:
       "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=500&auto=format&fit=crop&q=80",
-    path: "/Mariage",
+    path: "/",
   },
   {
     icon: GlassWater,
@@ -39,7 +38,7 @@ const services = [
     description:
       "Besoin d’un accompagnement personnalisé pour concevoir ou améliorer votre projet ? Nous mettons notre expertise à votre service pour vous conseiller et vous guider à chaque étape. De l’idée à la réalisation, bénéficiez d’un accompagnement sur-mesure pour concrétiser vos ambitions",
     image: "https://images.unsplash.com/photo-1513470939372-bd520e7d77db?q=80",
-    path: "/Mariage",
+    path: "/",
   },
 ];
 
@@ -68,59 +67,57 @@ export default function Services() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <Link key={index} href={service.path}>
-              <div
-                key={index}
-                className="group relative overflow-hidden rounded-lg border-4 border-[#c7b79c] border-opacity-20 h-[400px]"
-              >
-                <div className="absolute inset-0">
-                  <Image
-                    width={400}
-                    height={300}
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 "
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1D0808] via-[#1D0808]/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div
+              key={index}
+              className="group relative overflow-hidden rounded-lg border-4 border-[#c7b79c] border-opacity-20 h-[400px]"
+            >
+              <div className="absolute inset-0">
+                <Image
+                  width={400}
+                  height={300}
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 "
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1D0808] via-[#1D0808]/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+
+              {/* Content Container */}
+              <div className="absolute inset-0 p-8 flex flex-col">
+                {/* Initial View */}
+                <div className="mt-auto transform transition-transform duration-500 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
+                  <service.icon className="text-[#c7b79c] mb-4" size={32} />
+                  <h3 className="text-2xl font-serif text-[#c7b79c] mb-2">
+                    {service.title}
+                  </h3>
                 </div>
 
-                {/* Content Container */}
-                <div className="absolute inset-0 p-8 flex flex-col">
-                  {/* Initial View */}
-                  <div className="mt-auto transform transition-transform duration-500 group-hover:-translate-y-full opacity-100 group-hover:opacity-0">
-                    <service.icon className="text-[#c7b79c] mb-4" size={32} />
-                    <h3 className="text-2xl font-serif text-[#c7b79c] mb-2">
-                      {service.title}
-                    </h3>
+                {/* Hover View */}
+                <div className="absolute inset-x-0 bottom-0 p-8 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                  <service.icon className="text-[#c7b79c] mb-4" size={32} />
+                  <h3 className="text-2xl font-serif text-[#c7b79c] mb-4">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    {service.description}
+                  </p>
+
+                  {/* Art Deco Decorative Element */}
+                  <div className="flex items-center gap-2 mt-6">
+                    <div className="w-2 h-2 rotate-45 bg-[#c7b79c]"></div>
+                    <div className="flex-1 h-[1px] bg-[#c7b79c] opacity-20"></div>
                   </div>
-
-                  {/* Hover View */}
-                  <div className="absolute inset-x-0 bottom-0 p-8 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                    <service.icon className="text-[#c7b79c] mb-4" size={32} />
-                    <h3 className="text-2xl font-serif text-[#c7b79c] mb-4">
-                      {service.title}
-                    </h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      {service.description}
-                    </p>
-
-                    {/* Art Deco Decorative Element */}
-                    <div className="flex items-center gap-2 mt-6">
-                      <div className="w-2 h-2 rotate-45 bg-[#c7b79c]"></div>
-                      <div className="flex-1 h-[1px] bg-[#c7b79c] opacity-20"></div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Art Deco Border Overlay */}
-                <div className="absolute inset-0 border border-[#c7b79c] opacity-0 group-hover:opacity-20 transition-opacity duration-300 pointer-events-none">
-                  <div className="absolute top-2 left-2 w-4 h-4 border-t border-l border-[#c7b79c]"></div>
-                  <div className="absolute top-2 right-2 w-4 h-4 border-t border-r border-[#c7b79c]"></div>
-                  <div className="absolute bottom-2 left-2 w-4 h-4 border-b border-l border-[#c7b79c]"></div>
-                  <div className="absolute bottom-2 right-2 w-4 h-4 border-b border-r border-[#c7b79c]"></div>
                 </div>
               </div>
-            </Link>
+
+              {/* Art Deco Border Overlay */}
+              <div className="absolute inset-0 border border-[#c7b79c] opacity-0 group-hover:opacity-20 transition-opacity duration-300 pointer-events-none">
+                <div className="absolute top-2 left-2 w-4 h-4 border-t border-l border-[#c7b79c]"></div>
+                <div className="absolute top-2 right-2 w-4 h-4 border-t border-r border-[#c7b79c]"></div>
+                <div className="absolute bottom-2 left-2 w-4 h-4 border-b border-l border-[#c7b79c]"></div>
+                <div className="absolute bottom-2 right-2 w-4 h-4 border-b border-r border-[#c7b79c]"></div>
+              </div>
+            </div>
           ))}
         </div>
         <div className="mt-12 text-center">

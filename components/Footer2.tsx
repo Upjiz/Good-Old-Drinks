@@ -1,12 +1,8 @@
 import React from "react";
-import {
-  GlassWater,
-  Instagram,
-  Facebook,
-  Twitter,
-  Mail,
-  Phone,
-} from "lucide-react";
+import { Instagram, Facebook, Twitter, Mail, Phone } from "lucide-react";
+import Image from "next/image";
+
+import Logo from "@/assets/DORE.png";
 
 export default function Footer() {
   return (
@@ -19,13 +15,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Section */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <GlassWater size={32} />
-              <span className="font-serif text-2xl">Good Old Drinks</span>
+            <div className="flex flex-col items-center">
+              <Image src={Logo} alt="Logo" width={300} />
+              <p className="text-gray-400 mb-6">
+                Barman privée pour tous vos événements
+              </p>
             </div>
-            <p className="text-gray-400 mb-6">
-              Barman privée pour tous vos événements
-            </p>
             <div className="flex gap-4">
               <a
                 href="#"
@@ -104,7 +99,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone size={18} className="text-[#c7b79c]" />
-                <span>06.74.74.74.74</span>
+                <span>06.59.32.21.31</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail size={18} className="text-[#c7b79c]" />
