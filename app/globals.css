@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.resend {
+  padding: 4px;
+}
+
 .icon-color {
   color: white;
 }
