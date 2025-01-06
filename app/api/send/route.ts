@@ -11,7 +11,7 @@ export async function POST(req: Request) {
     // Envoi de l'e-mail
     const { error } = await resend.emails.send({
       from: "Good Old Drinks <goodolddrinks@upizweb.com>",
-      to: ["upizweb@gmail.com"],
+      to: ["goodolddrinks@gmail.com"],
       subject: "Nouvelle demande de contact",
       react: EmailTemplate({ name, email, eventType, location, message }),
     });
