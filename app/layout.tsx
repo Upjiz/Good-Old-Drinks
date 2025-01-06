@@ -7,9 +7,9 @@ import ParallaxWrapper from "@/components/ParallaxWrapper";
 const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Good Old Drinks",
+  title: "Good Old Drinks - Service de Bar Mobile et Cocktails Personnalisés",
   description:
-    "Faites de votre événement un moment inoubliable avec un barman privé ! Cocktails sur-mesure, service professionnel et animations pour sublimer vos réceptions, soirées ou mariages.",
+    "Barman privé pour vos événements : cocktails sur-mesure, service professionnel et animations pour sublimer vos soirées, mariages ou réceptions.",
 };
 
 export const viewport: Viewport = {

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://good-old-drinks.fr
+
+# Sitemaps
+Sitemap: https://good-old-drinks.fr/sitemap.xml
