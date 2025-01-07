@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="fr">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={`${oswald.className}  antialiased `}>
         <ParallaxWrapper>
           <Header />
