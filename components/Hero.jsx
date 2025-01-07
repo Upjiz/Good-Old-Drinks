@@ -27,7 +27,7 @@ const Hero = () => {
               </Link>
               <div className="flex gap-4">
                 <a
-                  href="https://www.instagram.com/good.old.drinks?igsh=MzUzM3RxenEyd2kx"
+                  href="https://www.instagram.com/goodolddrinks?igsh=MTl0MTVnbDBsNG5r"
                   className="w-10 h-10 text-[#c7b79c] rounded-full border border-[#c7b79c] flex items-center justify-center hover:bg-[#c7b79c] hover:text-[#1D0808] transition-colors"
                 >
                   <Instagram size={24} />
