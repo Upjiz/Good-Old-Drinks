@@ -155,7 +155,7 @@ export default function Contact() {
             </div>
             <div>
               <Phone className="mx-auto text-[#c7b79c] mb-2" size={24} />
-              <p className="text-white">06 76 54 43 12</p>
+              <p className="text-white">06 59 32 21 31</p>
             </div>
             <div>
               <Calendar className="mx-auto text-[#c7b79c] mb-2" size={24} />
