@@ -11,7 +11,7 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://i.postimg.cc/PJj1tSw-4/1.jpg"
+              src="https://i.ibb.co/GvhppFLv/1.jpg"
               alt="1"
               width={500}
               height={500}
