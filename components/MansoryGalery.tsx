@@ -1,4 +1,16 @@
 import Image from "next/image";
+import img1 from "../assets/MansoryPhoto/1.jpg";
+import img2 from "../assets/MansoryPhoto/2.jpg";
+import img3 from "../assets/MansoryPhoto/3.jpg";
+import img4 from "../assets/MansoryPhoto/4.jpg";
+import img5 from "../assets/MansoryPhoto/5.jpg";
+import img6 from "../assets/MansoryPhoto/6.jpg";
+import img7 from "../assets/MansoryPhoto/7.jpg";
+import img8 from "../assets/MansoryPhoto/8.jpg";
+import img9 from "../assets/MansoryPhoto/9.jpg";
+import img10 from "../assets/MansoryPhoto/10.jpg";
+import img11 from "../assets/MansoryPhoto/11.jpg";
+import img12 from "../assets/MansoryPhoto/12.jpg";
 
 export default function Gallery() {
   return (
@@ -11,7 +23,7 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://i.ibb.co/GvhppFLv/1.jpg"
+              src={img1}
               alt="1"
               width={500}
               height={500}
@@ -20,8 +32,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.unsplash.com/photo-1486947799489-3fabdd7d32a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja3RhaWx8ZW58MHx8MHx8fDI%3D"
-              alt=""
+              src={img2}
+              alt="2"
               width={500}
               height={500}
             />
@@ -29,37 +41,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.unsplash.com/photo-1512103865222-dcf9531c9961?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29ja3RhaWx8ZW58MHx8MHx8fDI%3D"
-              alt=""
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <Image
-              className="rounded-lg"
-              src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvY2t0YWlsfGVufDB8fDB8fHwy"
-              alt=""
-              width={500}
-              height={500}
-            />
-          </div>
-          <div>
-            <Image
-              className="rounded-lg"
-              src="https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGJhcnxlbnwwfHwwfHx8Mg%3D%3D"
-              alt=""
-              width={500}
-              height={500}
-            />
-          </div>
-          <div>
-            <Image
-              className="rounded-lg"
-              src="https://images.unsplash.com/photo-1514361892635-6b07e31e75f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvY2t0YWlsfGVufDB8fDB8fHwy"
-              alt=""
+              src={img3}
+              alt="3"
               width={500}
               height={500}
             />
@@ -69,8 +52,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto/v1715819337/content-items/015/378/611/AA0BAR0ART0DECO_Escena5--original.png?1715819337"
-              alt=""
+              src={img4}
+              alt="4"
               width={500}
               height={500}
             />
@@ -78,8 +61,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.ctfassets.net/1aemqu6a6t65/8aJtC4pjYZHQ6zQNShHiH/51c79793572d9318581157a903d4f2ee/patent-pending-img_8585"
-              alt=""
+              src={img5}
+              alt="5"
               width={500}
               height={500}
             />
@@ -87,8 +70,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.unsplash.com/photo-1500217052183-bc01eee1a74e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFyfGVufDB8fDB8fHww"
-              alt=""
+              src={img6}
+              alt="6"
               width={500}
               height={500}
             />
@@ -98,8 +81,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.unsplash.com/photo-1540224769541-7e6e20a42330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGJhcnxlbnwwfHwwfHx8MA%3D%3D"
-              alt=""
+              src={img7}
+              alt="7"
               width={500}
               height={500}
             />
@@ -107,8 +90,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://www.niococktails.fr/cdn/shop/articles/NIO_Cocktails_speakeasy.png?v=1615926441"
-              alt=""
+              src={img8}
+              alt="8"
               width={500}
               height={500}
             />
@@ -116,8 +99,37 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.unsplash.com/photo-1597241693839-07d7fb803af1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyJTIwY29ja3RhaWx8ZW58MHx8MHx8fDI%3D"
-              alt=""
+              src={img9}
+              alt="9"
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <Image
+              className="rounded-lg"
+              src={img10}
+              alt="10"
+              width={500}
+              height={500}
+            />
+          </div>
+          <div>
+            <Image
+              className="rounded-lg"
+              src={img11}
+              alt="11"
+              width={500}
+              height={500}
+            />
+          </div>
+          <div>
+            <Image
+              className="rounded-lg"
+              src={img12}
+              alt="12"
               width={500}
               height={500}
             />
