@@ -11,8 +11,8 @@ export default function Gallery() {
           <div>
             <Image
               className="rounded-lg"
-              src="https://images.unsplash.com/photo-1470339128399-7ecf082f72ab?w=500&auto=format&fit=crop&q=60&"
-              alt=""
+              src="https://i.postimg.cc/PJj1tSw-4/1.jpg"
+              alt="1"
               width={500}
               height={500}
             />
