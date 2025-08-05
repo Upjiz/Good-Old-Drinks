@@ -40,13 +40,4 @@ export const mocktail: Mocktail[] = [
     description: "Eau de concombre, sirop de sureau, lime, Eau gazeuse",
     year: "Est. 1915",
   },
-  {
-    id: 5,
-    name: "Ginger Glow",
-    image:
-      "https://images.unsplash.com/photo-1556679344-cc7e0c25c8c3?auto=format&fit=crop&w=800&q=80",
-    description:
-      "Infusion menthe / poivre, lime, sirop citronelle, ginger beer",
-    year: "Est. 1915",
-  },
 ];

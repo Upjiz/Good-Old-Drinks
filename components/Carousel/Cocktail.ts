@@ -9,29 +9,29 @@ export interface Cocktail {
 export const cocktails: Cocktail[] = [
   {
     id: 1,
-    name: "Cosmo Note",
+    name: "Green Flag",
     image:
       "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
     description:
-      "Vodka renaissance, citron vert, purée de framboise, sirop de pop-corn, sirop de sucre, thé fruit rouge, foamer",
+      "Gin, Liqueur sureau, Jus de citrons vert, Sirop poivre timut maison, Eau de concombre, Foamer",
     year: "Est. 1921",
   },
   {
     id: 2,
-    name: "Spicy Tiki",
+    name: "Bloom",
     image:
       "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80",
     description:
-      "Rhum ambargo blanc, Le merveilleux falernum, Purée passion, Citron vert, Sirop cannelle, Jus d’ananas",
+      "Vodka liqueur d’acai maison, jus de citron vert, sirop d’hibiscus maison, eau de coco",
     year: "Est. 1922",
   },
   {
     id: 3,
-    name: "Flagrance",
+    name: "Tiki Tonka",
     image:
       "https://images.unsplash.com/photo-1560512823-829485b8bf24?auto=format&fit=crop&w=800&q=80",
     description:
-      "Koloa coconut, Liqueur Fair passion, Supasawa, Sirop vanille, Eau de coco",
+      "Rhum, Liqueur falernum maison, jus de citron vert, sirop de tonka maison, purée de passion",
     year: "Est. 1920",
   },
   {
@@ -43,58 +43,14 @@ export const cocktails: Cocktail[] = [
       "Rhum embargo cacao, Liqueur amaretto Villa Massa, Purée d’ananas, Citron vert, Sirop simple",
     year: "Est. 1915",
   },
+
   {
     id: 5,
-    name: "Seed Negroni",
-    image:
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    description:
-      "Vodka Renaissance, Liqueur Fair baie açaï, Citron vert, Purée passion, Sirop de vanille",
-    year: "Est. 1921",
-  },
-  {
-    id: 6,
-    name: "Acay Signature",
-    image:
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    description:
-      "Gin Green Seed (infusion tonka), La Quintinye rouge, Campari (infusion café)",
-    year: "Est. 1921",
-  },
-  {
-    id: 7,
-    name: "Mi-Chemin",
-    image:
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    description:
-      "Gin Green Seed, Liqueur Fair Elderflower, Citron vert, Sirop de poivre Timut, Eau de concombre/Perrier.",
-    year: "Est. 1921",
-  },
-  {
-    id: 8,
     name: "Silk Road",
     image:
       "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
     description:
       "Gin Green Seed (infusion citronnelle), Liqueur Fair gingembre, Citron vert, Sirop coriandre, Thé jasmin, Foamer.",
-    year: "Est. 1921",
-  },
-  {
-    id: 9,
-    name: "Granny’s secret",
-    image:
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    description:
-      "Vodka Renaissance, Liqueur yuzu (BBC Spirit), Sirop verveine, Citron vert.",
-    year: "Est. 1921",
-  },
-  {
-    id: 10,
-    name: "Smoke On The Water",
-    image:
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    description:
-      "Whisky Lefort (fatwash peanut butter), Sirop pain grillé, Supasawa, Campari fruit rouge.",
     year: "Est. 1921",
   },
 ];
@@ -110,59 +66,92 @@ export interface ClasicCocktail {
 export const classicCocktails: ClasicCocktail[] = [
   {
     id: 1,
-    name: "Mojito",
+    name: "Whisky Sour",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description: "Rhum, Menthe, Citron vert, Sucre, Eau gazeuse",
+      "https://images.unsplash.com/photo-1579054124599-77ceb3040991?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpc2t5JTIwc291cnxlbnwwfHwwfHx8MA%3D%3D",
+    year: "Est. 1870",
+    description: "Whisky, Jus de citron, Sucre, Blanc d'œuf",
   },
   {
     id: 2,
-    name: "Moscow Mule ",
+    name: "Amaretto Sour",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description: "Vodka, Ginger beer, Citron vert",
+      "https://images.unsplash.com/photo-1600796208124-0e43d9b2a362?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW1hcmV0dG8lMjBzb3VyJTIwY29ja2RhaWx8ZW58MHx8MHx8fDA%3D",
+    year: "Est. 1970",
+    description: "Amaretto, Jus de citron, Sucre, Blanc d'œuf",
   },
   {
     id: 3,
-    name: "London Mule",
+    name: "Moscow Mule",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description: "Gin, Ginger beer, Citron vert",
+      "https://images.unsplash.com/photo-1606902965551-dce099c09791?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9zY293JTIwbXVsZXxlbnwwfHwwfHx8MA%3D%3D",
+    year: "Est. 1941",
+    description: "Vodka, Ginger beer, Jus de citron vert",
   },
   {
     id: 4,
-    name: "Pornstar Martini",
+    name: "London Mule",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description:
-      "Vodka, Liqueur de fruit de la passion, Purée de fruit de la passion, Prosecco",
+      "https://images.unsplash.com/photo-1606902965551-dce099c09791?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZG9uJTIwbXVsZXxlbnwwfHwwfHx8MA%3D%3D",
+    year: "Est. 2000",
+    description: "Gin, Ginger beer, Jus de citron vert",
   },
   {
     id: 5,
-    name: "Espresso Martini",
+    name: "Paloma",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description: "Vodka, Liqueur de café, Espresso",
+      "https://images.unsplash.com/photo-1604490333143-90264f29e523?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFsb21hJTIwY29ja2RhaWx8ZW58MHx8MHx8fDA%3D",
+    year: "Est. 1950",
+    description: "Tequila, Jus de pamplemousse, Eau gazeuse, Citron vert",
   },
   {
     id: 6,
-    name: "Gin Tonic",
+    name: "Basil Smash",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description: "Gin, Tonic, Citron",
+      "https://images.unsplash.com/photo-1551024702-8b3b94e5b9b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFzaWwlMjBzbWFzaCUyMGNvY2tkYWlsfGVufDB8fDB8fHww",
+    year: "Est. 2008",
+    description: "Gin, Basilic, Jus de citron, Sucre",
   },
   {
     id: 7,
-    name: "Gin Tonic",
+    name: "Espresso Martini",
     image:
-      "https://images.unsplash.com/photo-1730390772308-0ae7f139d042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9qaXRvfGVufDB8fDB8fHwy",
-    year: "Est. 1921",
-    description: "Vodka, Liqueur triple sec, Jus de cranberry, Citron vert",
+      "https://images.unsplash.com/photo-1561065090-68f1d00d54f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXNwcmVzc28lMjBtYXJ0aW5pfGVufDB8fDB8fHww",
+    year: "Est. 1983",
+    description: "Vodka, Café espresso, Liqueur de café, Sucre",
+  },
+  {
+    id: 8,
+    name: "Pornstar Martini",
+    image:
+      "https://images.unsplash.com/photo-1600972892358-69e9e896940f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ybnN0YXIlMjBtYXJ0aW5pfGVufDB8fDB8fHww",
+    year: "Est. 2002",
+    description:
+      "Vodka, Liqueur de vanille, Jus de fruit de la passion, Jus de citron vert, Champagne",
+  },
+  {
+    id: 9,
+    name: "Margarita",
+    image:
+      "https://images.unsplash.com/photo-1551448469-82210b77414e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFyZ2FyaXRhJTIwY29ja2RhaWx8ZW58MHx8MHx8fDA%3D",
+    year: "Est. 1938",
+    description: "Tequila, Triple sec, Jus de citron vert",
+  },
+  {
+    id: 10,
+    name: "Daiquiri",
+    image:
+      "https://images.unsplash.com/photo-1577259514322-098f4d6a066e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGFpcXVpcml8ZW58MHx8MHx8fDA%3D",
+    year: "Est. 1898",
+    description: "Rhum, Jus de citron vert, Sucre",
+  },
+  {
+    id: 11,
+    name: "Cosmopolitan Framboise",
+    image:
+      "https://images.unsplash.com/photo-1551448469-82210b77414e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29zbW9wb2xpdGFuJTIwY29ja2RhaWx8ZW58MHx8MHx8fDA%3D",
+    year: "Est. 1988",
+    description:
+      "Vodka, Liqueur de framboise, Jus de cranberry, Jus de citron vert",
   },
 ];
