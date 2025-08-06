@@ -22,7 +22,7 @@ export const cocktails: Cocktail[] = [
     image:
       "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80",
     description:
-      "Vodka liqueur d’acai maison, jus de citron vert, sirop d’hibiscus maison, eau de coco",
+      "Vodka, Liqueur d’acai maison, Jus de citron vert, Sirop d’hibiscus maison, Eau de coco",
     year: "Est. 1922",
   },
   {
@@ -40,7 +40,7 @@ export const cocktails: Cocktail[] = [
     image:
       "https://images.unsplash.com/photo-1556679344-cc7e0c25c8c3?auto=format&fit=crop&w=800&q=80",
     description:
-      "Rhum embargo cacao, Liqueur amaretto Villa Massa, Purée d’ananas, Citron vert, Sirop simple",
+      "Rhum, Liqueur amaretto, Purée d’ananas, Citron vert, Sirop simple",
     year: "Est. 1915",
   },
 
@@ -50,7 +50,7 @@ export const cocktails: Cocktail[] = [
     image:
       "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
     description:
-      "Gin Green Seed (infusion citronnelle), Liqueur Fair gingembre, Citron vert, Sirop coriandre, Thé jasmin, Foamer.",
+      "Gin, Liqueur gingembre maison, Citron vert, Sirop coriandre maison,infusion Thé jasmin, Foamer.",
     year: "Est. 1921",
   },
 ];
