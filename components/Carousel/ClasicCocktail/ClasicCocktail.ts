@@ -21,7 +21,7 @@ export const classicCocktails: ClassicCocktail[] = [
     image:
       "https://images.unsplash.com/photo-1600796208124-0e43d9b2a362?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW1hcmV0dG8lMjBzb3VyJTIwY29ja2RhaWx8ZW58MHx8MHx8fDA%3D",
     year: "Est. 1970",
-    description: "Amaretto, Jus de citron, Sucre, Foamer",
+    description: "Amaretto, Jus de citron, Foamer",
   },
   {
     id: 3,
